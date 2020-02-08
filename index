@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JUNZZI
+        </title>
+      
+        <link rel = "stylesheet" href = "index.css"/>
+        
+    </head>
+    <body>
+        <h1 id="title">            
+                JUNZZI_CLUB_DAILY
+        </h1>
+        
+
+        <script src = "index.js"></script>
+        <script src = "bg.js"></script>
+    </body>
+    
+
+</html>
