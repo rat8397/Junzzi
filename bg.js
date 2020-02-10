@@ -1,21 +1,13 @@
 const body = document.querySelector("body");
-const IMG_NUMBER = 3;
-
-function paintImage(img_number){
+const IMG_NUMBER = 1;
+function PaintIMG(){
+    
     const image = new Image();
-    image.src = `/photos/${img_number}.jpg`
+    image.src = `/photos/${IMG_NUMBER+1}.gif`
     image.classList.add("bgImage")
     body.prepend(image);
 }
-function getRandomNumber(){
-    const number = Math.floor(Math.random() * IMG_NUMBER);
-    return number+1;
-}
-function photosave(){
-     
-}
 function init(){
-    img_number = getRandomNumber();
-    paintImage(img_number);
+    PaintIMG();
 }
 init();

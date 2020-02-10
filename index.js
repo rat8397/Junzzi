@@ -1,8 +1,8 @@
-const title = document.querySelector("#title")
-const BASE_COLOR = "pink"
+const title = document.querySelector("title")
+
 
 function init(){
-    title.style.color = BASE_COLOR;
+    title.innerHTML("hi")
      
 }
 init();
